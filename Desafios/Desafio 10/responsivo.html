@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam possimus nulla, maiores assumenda, saepe quasi necessitatibus, ab officiis optio libero distinctio accusamus maxime quas repudiandae ipsam perspiciatis esse voluptate accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, reprehenderit exercitationem a dolorem voluptate distinctio quaerat eveniet minima sit ipsam, soluta voluptas veniam quo quas ea vel nisi tempore?</p>
+        
+        <picture>
+            <source media="(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione ea beatae praesentium rem perspiciatis totam aut neque et laudantium! Accusamus eveniet ipsa reprehenderit atque incidunt molestias possimus facilis, iste ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore magnam esse necessitatibus atque sequi aut voluptates iste. Odio quo maiores earum, vitae aperiam doloribus eum, similique, molestias ipsam hic quae!</p>
+    </main>
+    <div class="projeto">
+  <div class="imagem-container">
+    <img src="podcast-capa.jpg" alt="Podcast" class="imagem-projeto">
+    <div class="overlay">
+      <p class="descricao">
+        Este é meu podcast sobre tecnologia, onde entrevisto profissionais da área e falo sobre as tendências do mercado.
+      </p>
+      <video class="video-preview" controls>
+        <source src="podcast-preview.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </div>
+  </div>
+  <h3 class="titulo-projeto">Podcast: Vozes da Tecnologia</h3>
+</div>
+
+</body>
+</html>
